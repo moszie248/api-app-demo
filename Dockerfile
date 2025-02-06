@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 habor-proxy.analytichpxv3.online/dockerhub/golang:1.23-alpine3.20 AS builder
+FROM habor-proxy.analytichpxv3.online/dockerhub/golang:1.23-alpine3.20 AS builder
 
 WORKDIR /app
 COPY . .
